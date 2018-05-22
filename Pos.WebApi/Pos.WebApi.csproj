@@ -188,6 +188,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProvinceController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -264,6 +265,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Pos.Helpers\Pos.Helper.csproj">
+      <Project>{CAEC7126-51AF-468B-B3A7-943C4661A431}</Project>
+      <Name>Pos.Helper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Pos.Model\Pos.Model.csproj">
       <Project>{FD083AD5-8170-4C6C-BC6C-7907DEF11EF4}</Project>
       <Name>Pos.Model</Name>

@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace Pos.Helpers
 {
-    public class GlobalHelper
+    public static class GlobalHelper
     {
+        public static bool IsNullHelper(string data)
+        {
+            if (!string.IsNullOrEmpty(data) && !string.IsNullOrWhiteSpace(data))
+            {
+                return true;
+            }
+            return false;
+        }
+        public static bool IsNullHelper(int data)
+        {
+            if (data != 0)
+            {
+                return true;
+            }
+            return false;
+        }
+
     }
 }
