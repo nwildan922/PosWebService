@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pos.Model", "Pos.Model\Pos.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pos.Repository", "Pos.Repository\Pos.Repository.csproj", "{7E10F0BD-E0E9-46AB-9202-359F277AC7D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pos.Service", "Pos.Service\Pos.Service.csproj", "{79263DE8-919C-461D-A46F-E0C6A0916872}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pos.Helper", "Pos.Helpers\Pos.Helper.csproj", "{CAEC7126-51AF-468B-B3A7-943C4661A431}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,33 +29,15 @@ Global
 		{7E10F0BD-E0E9-46AB-9202-359F277AC7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E10F0BD-E0E9-46AB-9202-359F277AC7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E10F0BD-E0E9-46AB-9202-359F277AC7D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79263DE8-919C-461D-A46F-E0C6A0916872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79263DE8-919C-461D-A46F-E0C6A0916872}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79263DE8-919C-461D-A46F-E0C6A0916872}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79263DE8-919C-461D-A46F-E0C6A0916872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEC7126-51AF-468B-B3A7-943C4661A431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEC7126-51AF-468B-B3A7-943C4661A431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEC7126-51AF-468B-B3A7-943C4661A431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEC7126-51AF-468B-B3A7-943C4661A431}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EE9F2FB-1305-46A4-A154-E3FD8B535D94}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://nwildan922.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Pos.Model\\Pos.Model.csproj
-		SccProjectName1 = Pos.Model
-		SccLocalPath1 = Pos.Model
-		SccProjectUniqueName2 = Pos.Repository\\Pos.Repository.csproj
-		SccProjectName2 = Pos.Repository
-		SccLocalPath2 = Pos.Repository
-		SccProjectUniqueName3 = Pos.Service\\Pos.Service.csproj
-		SccProjectName3 = Pos.Service
-		SccLocalPath3 = Pos.Service
-		SccProjectUniqueName4 = Pos.WebApi\\Pos.WebApi.csproj
-		SccProjectName4 = Pos.WebApi
-		SccLocalPath4 = Pos.WebApi
 	EndGlobalSection
 EndGlobal
