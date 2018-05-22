@@ -12,17 +12,17 @@ namespace Pos.Helpers
         {
             if (!string.IsNullOrEmpty(data) && !string.IsNullOrWhiteSpace(data))
             {
-                return true;
+                return false;
             }
-            return false;
+            return true;
         }
         public static bool IsNullHelper(int data)
         {
             if (data != 0)
             {
-                return true;
+                return false;
             }
-            return false;
+            return true;
         }
 
     }
