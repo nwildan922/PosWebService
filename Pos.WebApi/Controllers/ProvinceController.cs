@@ -36,7 +36,7 @@ namespace Pos.WebApi.Controllers
                 
                 return Ok(message);
             }
-            return Ok(data);
+            return Ok("asdf");
         }
     }
 }
