@@ -1,4 +1,5 @@
-﻿using Pos.Model.Core;
+﻿using Pos.Helpers;
+using Pos.Model.Core;
 using Pos.Repository.DataAccess;
 using Pos.Repository.UnitOfWork;
 using System;
@@ -19,7 +20,7 @@ namespace Pos.WebApi.Controllers
 
         public ActionResult Index()
         {
-
+            
             var data = _unitOfWork.Provinces.GetAll();
             _unitOfWork.Dispose();
 
