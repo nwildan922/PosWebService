@@ -53,7 +53,9 @@
   <ItemGroup>
     <Compile Include="BaseRepository\IRepository.cs" />
     <Compile Include="BaseRepository\Repository.cs" />
+    <Compile Include="Core\ICityRepository.cs" />
     <Compile Include="Core\IProvinceRepository.cs" />
+    <Compile Include="Core\CityRepository.cs" />
     <Compile Include="Core\ProvinceRepository.cs" />
     <Compile Include="DataAccess\DataContext.cs" />
     <Compile Include="Migrations\201805231504250_initialCommnit.cs" />

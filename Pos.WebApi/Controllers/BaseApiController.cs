@@ -10,5 +10,6 @@ namespace Pos.WebApi.Controllers
     {
         protected string _message = "";
         protected string _controllerName = "";
+        protected string _actionName = "";
     }
 }

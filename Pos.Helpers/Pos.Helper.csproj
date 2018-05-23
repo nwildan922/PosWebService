@@ -52,6 +52,7 @@
     <Compile Include="GlobalHelper.cs" />
     <Compile Include="Helper\AESEncryptionHelper.cs" />
     <Compile Include="Helper\DateToStringHelper.cs" />
+    <Compile Include="Helper\JilHelper.cs" />
     <Compile Include="Helper\ProcessResultHelper.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="MemoryChacer.cs" />

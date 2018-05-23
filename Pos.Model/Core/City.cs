@@ -13,7 +13,6 @@ namespace Pos.Model.Core
         [ForeignKey(nameof(ProvinceId))]
         public Province TmProvince { get; set; }
         public string ProvinceId { get; set; }
-
         //-------------------------------------------------------------
         public ICollection<Account> Accounts { get; set; }
     }

@@ -1,0 +1,4 @@
+Error On Controller : CityController
+Error On Action : Insert Or Update
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Pos.WebApi.Controllers.CityController.Submit(City model) in C:\Users\A43E\Documents\Visual Studio 2017\Projects\Pos.WebApi\PosWebService\Pos.WebApi\Controllers\CityController.cs:line 67

@@ -10,6 +10,7 @@ namespace Pos.Repository.UnitOfWork
     public interface IUnitOfWork : IDisposable
     {
         IProvinceRepository Provinces { get; }
+        ICityRepository Cities { get; }
         int Complete();
     }
 }
