@@ -17,6 +17,8 @@ namespace Pos.Repository.DataAccess
         public DbSet<AccountPayment> AccountPayment { get; set; }
         public DbSet<AccountType> AccountType { get; set; }
         public DbSet<Account> Accounts { get; set; }
+        public DbSet<LogModel> Logs { get; set; }
+
         //---------------------------------------------------------------------------------------
     }
 }

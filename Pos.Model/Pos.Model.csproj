@@ -54,6 +54,7 @@
     <Compile Include="Core\Account.cs" />
     <Compile Include="Core\AccountType.cs" />
     <Compile Include="Core\City.cs" />
+    <Compile Include="Core\LogModel.cs" />
     <Compile Include="Core\Menu.cs" />
     <Compile Include="Core\Province.cs" />
     <Compile Include="Core\AccountPayment.cs" />

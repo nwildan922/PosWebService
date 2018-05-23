@@ -56,6 +56,11 @@
     <Compile Include="Core\IProvinceRepository.cs" />
     <Compile Include="Core\ProvinceRepository.cs" />
     <Compile Include="DataAccess\DataContext.cs" />
+    <Compile Include="Migrations\201805231504250_initialCommnit.cs" />
+    <Compile Include="Migrations\201805231504250_initialCommnit.Designer.cs">
+      <DependentUpon>201805231504250_initialCommnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitOfWork\IUnitOfWork.cs" />
     <Compile Include="UnitOfWork\UnitOfWork.cs" />
@@ -69,6 +74,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201805231504250_initialCommnit.resx">
+      <DependentUpon>201805231504250_initialCommnit.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
